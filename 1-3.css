@@ -1,0 +1,62 @@
+* {
+  margin:  0;
+  padding:  0;
+  box-sizing:  border-box;
+}
+
+.clearfix::after  {
+  content: "";
+  display:  block;
+  clear: both;
+}
+
+.header {
+  width: 100%;  /* 横幅いっぱい */
+  height: 120px;  /* 高さ120px */
+  background-color:  #FF0000;  /* 背景赤色 */
+}
+.header-top {
+  width: 100%;  /* 横幅いっぱい */
+  height: 70px;  /* 高さ70px */
+  background-color:  hotpink;  /* 背景ホットピンク色(「豆」#ff69b4) */
+}
+.header-bottom {
+  width: 100%;  /* 横幅いっぱい */
+  height: 50%;  /* 高さ50px */
+  background-color:  pink;  /* 背景ピンク色(「豆」#ffc0cb) */
+}
+
+.main-visual {
+	width: 100%;  /* 横幅いっぱい */
+	height: 300px;  /* 高さ300px */
+	background-color:  #ffa500;  /* 背景オレンジ色(「豆」Alphbetの部分は小文字でも大文字でも可。e.g.#FFA500,#fFa500) */
+}
+.main-visual-content {
+  width: 350px;  /* 横幅を指定 */
+  height:  300px;  /* 親の高さに揃える */
+  background-color:  gold;  /* 背景金色(「豆」#ffd700) */
+}
+
+.main {
+	width: 840px;  /* 横幅840px。子要素の横幅の合計に合わせた。 */
+	background-color: green;  /* 背景緑色(「豆」#008000) */
+  margin: 0 auto;  /*余白がないとできない*/
+}
+.blog {
+  width: 600px;
+  height: 1400px;
+  background-color:  limegreen;  /* 背景ライムグリーン */
+  float: left;  /* 要素を左揃えで並べる */
+}
+.sidebar {
+  width: 240px;
+  height: 1400px;
+  background-color: palegreen;  /* 背景palegreen(「豆」pale = light in color or almost white) */
+  float: left;  /* 要素を左揃えで並べる */
+}
+
+.footer {
+    width: 100%;  /* 横幅いっぱい */
+    height: 120px;  /* 高さ120px */
+    background-color: blue;  /* 背景青色(「豆」#0000ff) */
+}
